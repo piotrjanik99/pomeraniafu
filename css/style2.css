@@ -1,0 +1,126 @@
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: linear-gradient(to right, #0058b7 , #0065d1);
+  overflow: hidden;
+  width: 0px;
+  height: 250px;
+  transition: 1s ease;
+}
+
+.container:hover .overlay {
+  width: 100%;
+  opacity: 0.9;
+
+}
+
+.container:hover .text {
+  white-space: normal;
+  width: 280px;
+
+}
+
+.text {
+  white-space: normal;
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  width: 280px;
+}
+
+.mgal2 .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: linear-gradient(to right, #0058b7 , #0065d1);
+  overflow: hidden;
+  width: 0px;
+  height: 500px;
+  transition: 1s ease;
+}
+
+.mgal2 .text {
+  white-space: normal;
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  width: 280px;
+}
+
+.mgal2 .container:hover .overlay {
+  width: 100%;
+  opacity: 0.9;
+
+}
+
+.mgal2 .container:hover .text {
+  white-space: normal;
+  width: 280px;
+
+}
+
+.produkty3{
+  height: auto;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: white;
+  margin: 0 auto;
+  text-align: center;
+  /*box-shadow: 1px 5px 10px black;*/
+}
+.mgal2 {
+  list-style-type: none;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+  vertical-align: middle;
+  padding-left: 0px;
+}
+
+.mgal2 li {
+	width: 300px;
+	height: 500px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.produkty3 img{
+  width: 300px;
+  height: 500px;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.mgal2 img:hover{
+  transition: 0.5s;
+  cursor: pointer;
+}
